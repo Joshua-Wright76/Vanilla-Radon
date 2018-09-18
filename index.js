@@ -1,30 +1,16 @@
-// import { connect } from 'react-redux'
 
 
 
+//template for market card
 const template = document.querySelector("#marketcard-temp")
-
-const marketCardTemplate = document.importNode(template.content, true);
-//going to append this template onto the a <li>,  child of markets-display. 
-console.log(marketCardTemplate)
-
+const locationTemplate = document.importNode(template.content, true);
 
 //Button to add new location, creates new card and updates. On click the event is dispatched to a reducer. 
-const createNewLocation = (template) => { 
+const createNewLocation = () => document.getElementById("market-list").appendChild(locationTemplate);
 
-let addThis = document.getElementById("markets-display").appendChild(marketCardTemplate)
-return addThis;  
-}
+const addMarketCard = () => console.log('Here from addMarket')
 
-
-//Render function
-const render = (template, node) => {
-  if (!node) throw new Error('need template plix pl0x'); 
-  let view = node.innerHTML = template; 
-  return view; 
-}; 
-
- 
+const deleteMarketCard = () => console.log("Hi From Delete Market card")
 
 
-// export default { render }
+

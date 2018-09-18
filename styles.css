@@ -10,9 +10,19 @@
   width: 30px;  
 }
 
- #marketcard-temp {
+#markets-container{
+  position: relative;
+  border: solid; 
+  border-color: black; 
+  text-align: center;
+  top: 100px;
+  width: 800px; 
+  height: 800px; 
+}
+
+#markets-container #market-list #marketcard-temp {
   border: solid; 
   border-color: black; 
   height: 30px; 
-  width: 30px;
+  width: 123123px;
 }

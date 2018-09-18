@@ -7,6 +7,7 @@ import render from 'index.js'
 
 
 const initialState = { 
+  marketList = [], 
   location: " ",   
   totalCards: 0, 
   totalMarkets: 0, 
