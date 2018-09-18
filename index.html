@@ -5,7 +5,8 @@
     <link rel="stylesheet" type="text/css" href="styles.css"/> 
   </head>
 <body>
-    <h1 id="heading"> Mega Markets Loyalty Cards </h1>
+  <div class="container"> 
+    <h1 id="heading">Mega Markets Loyalty Cards </h1>
     <div id="market-counts">
       <p>Total Cards:<p>
       <p>Total Markets:<p>
@@ -13,12 +14,11 @@
     <div id="create-market">
       <h3>Create New Market</h3>
         <form id="location-form" type="text">
-          <label>Location:</label>
-            <input />
-            <button id="create-location" type="button" onclick="createNewLocation();">Add Market</button>
+          <label>Location: </label>
+          <input />
+          <button id="create-location" type="button" onclick="createNewLocation();">Add Market</button>
         </form>
      </div>
-       <!-- <input id="create-location" type="button" onclick="createNewLocation();"/>  -->
      <div id="markets-container">
        <div id ="market-list">
          <template id="marketcard-temp">
@@ -32,12 +32,13 @@
              <div id="btns">
               <button id="create-card" onclick="addMarketCard();">Add Card</button>
               <button id="delete-card" onclick="deleteMarketCard()">Delete Card</button>
-            </div>
-          </div>
-        </template>
-      </div>
-    </div>
-  <script type="text/javascript" src="index.js"> </script>
+             </div>
+           </div>
+         </template>
+       </div>
+     </div>
+   </div>
+<script type="text/javascript" src="index.js"> </script>
 </body> 
 </html> 
 
