@@ -3,6 +3,61 @@
   margin: 0; 
 }
 
+p{
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  position: relative;
+  margin: 5px;
+  margin-bottom: 0;
+  right: 47px;
+}
+
+#market-counts{
+  border: solid; 
+  border-color: black;
+  width: 800px; 
+  height: 80px; 
+}
+
+#create-card {
+  position: relative;
+  display: inline;
+  top: 25px;
+  margin: 25px;
+}
+
+
+#btns {
+  display: inline;
+  
+} 
+
+#location-form{
+  display: flex;
+  flex-direction: row;
+}
+
+#create-location{
+  position: relative;
+  width: 75px;
+  height: 20px;
+  left: 10px;
+}
+
+#create-market{
+  position: relative;
+  margin: 10px;
+  top: 80px;
+}
+
 #marketCard {
   border: solid; 
   border-color: black; 
@@ -20,9 +75,11 @@
   height: 800px; 
 }
 
-#markets-container #market-list #marketcard-temp {
+#marketcard-container {
+  margin: 20px;
+  padding: 10px;
   border: solid; 
-  border-color: black; 
-  height: 30px; 
-  width: 123123px;
+  border-color: pink; 
+  height: 150px;
+  width: 150px;
 }

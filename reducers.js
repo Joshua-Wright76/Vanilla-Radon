@@ -32,7 +32,3 @@ export const marketReducer = (state  = initialState, action) => {
 
 
 
-
-
-
-//reducers return an Object which updates th
