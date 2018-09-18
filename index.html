@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+
+<html> 
+  <head> 
+    <body>
+      <h1 id="heading"> Mega Markets Loyalty Cards </h1>
+      <div id="market-counts">
+        <label>Total Cards:</label>
+          <p id="tm-count">placeHolder</p>
+          <p id="tc-count"></p>
+        <label>Total Markets:</label>
+          <p id="tm-count">placeHolder</p>
+       </div>
+       <div id="markets-display">
+        <h1>Create New Market</h1>
+        <form id="location-form"></form>
+          <label>Location:</label>
+          <input/>
+        <input id="create-location" type="button" onclick="createNewLocation();"/> 
+        <template id='marketcard-temp'> 
+          <label>Market ID:</label>
+          <label>location:</label>
+          <label>Cards</label>
+          <label>% of total:</label>
+          <button id="create-card">Add Card</button>
+          <button>Delete Card</button>
+        </template>
+       </div>
+      <script type="text/javascript" src="index.js"> </script>
+     </body> 
+    </head>
+  </html> 
+
