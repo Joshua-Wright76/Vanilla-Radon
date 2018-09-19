@@ -5,7 +5,6 @@ import render from 'index.js'
 
 
 
-
 const initialState = { 
   marketList = [], 
   location: " ",   
@@ -13,8 +12,7 @@ const initialState = {
   totalMarkets: 0, 
   marketId: '', 
   percentOfTotal: 0, 
-}
-
+ }
 
 export const marketReducer = (state  = initialState, action) => {
   const market; 
